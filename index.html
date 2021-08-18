@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Mai's Books</title>
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Tangerine:wght@400;700&family=WindSong:wght@500&display=swap" rel="stylesheet">
+  <!--bootstrap and js-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/0b7604b676.js" crossorigin="anonymous"></script>
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+  <!--my css-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylesBook.css">
+
+</head>
+
+<body>
+  <!--top section----------->
+  <div class="topSec">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="brand" href="https://www.amazon.com/A-Vietnamese-Girl-Named-Mai/dp/B08XRZFMG1" target="_blank">Mai's Books</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="navItem">
+            <button class="homeBtn" onClick="window.location.reload();">Home</button>
+          </li>
+          <li class="navItem">
+            <a class="" href="mailto:someone@gmail.com" target="_blank">Contact</a>
+          </li>
+          <li class="navItem">
+            <button class="homeBtn" id="priceNav">Pricing</button>
+          </li>
+          <li class="navItem">
+            <a class="" href="https://www.amazon.com/A-Vietnamese-Girl-Named-Mai/dp/B08XRZFMG1" target="_blank">Buy Online</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="title">English-Vietnamese Bilingual Book Series<br>A Vietnamese Girl named Mai</h1>
+    <h2><a href="https://www.amazon.com/Thuan-Vincent/e/B0962BWDLZ?ref=dbs_mng_calw_a_0" target="_blank">by T.C. Vincent</a></h2>
+    <!---middle section------------->
+  </div>
+  <div class="midSec">
+    <!---table of content--->
+    <div class="toc">
+      <button id="aboutBtn" class="btn btn-lg btn-light" type="button" name="button">About Mai</button>
+      <button id="traitBtn" class="btn btn-lg btn-light" type="button" name="button">Virtues & Values Books</button>
+      <button id="adventuresBtn" class="btn btn-lg btn-light" type="button" name="button">Mai's Special Occasions Books</button>
+      <button id="learnBtn" class="btn btn-lg btn-light" type="button" name="button">Learn Vietnamese Books</button>
+      <button id="specialBtn" class="btn btn-lg btn-light" type="button" name="button">Special books</button>
+      <button id="previewBtn" class="btn btn-lg btn-light" type="button" name="button">View Sample pages</button>
+      <button id="priceBtn" class="btn btn-lg btn-light" type="button" name="button">Pricing</button>
+    </div>
+    <div class="displayArea">
+      <div class="" id="sectionOne">
+        <img class="maiRainbow clickable" src="images/mai_rainbow.jpg" alt="Mai's pic">
+        <br>
+        <a href="https://www.amazon.com/A-Vietnamese-Girl-Named-Mai/dp/B08XRZFMG1" target="_blank">A Vietnamese Girl named Mai</a>
+      </div>
+
+      <div class="aSection" id="sectionTwo">
+        <h2 class="sectionPadding">Who is <strong><em>Mai<em></strong>?</h2>
+        <img class="maiPic clickable" src="images/mai.jpg" alt="Mai">
+        <br>
+        <h5>Mai is a young Vietnamese American girl who is kind and helpful to others. <br>
+          <br>Everyday she tries her best to make a difference for society.
+        </h5>
+      </div>
+      <!------------------>
+      <div class="aSection" id="sectionThree">
+        <h2 class="sectionPadding">Through Mai's books, children will learn important lessons about virtues and values such as<br>kindness, patience, truthfulness, and sharing.</h2>
+        <!--card bootstrap------->
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="card-group">
+              <center><img class="cardImg clickable" src="images/good.jpg" alt="Mai is a good girl-Book"></center>
+              <div class="card-body">
+                <h5 class="card-title">Mai is a good girl!</h5>
+                <p class="card-text">An ordinary six-year-old girl who is always kind, does her best to be helpful.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card-group">
+              <center> <img class="cardImg clickable" src="images/kind.jpg" alt="Mai is Kind"></center>
+              <div class="card-body">
+                <h5 class="card-title">Mai is Kind.</h5>
+                <p class="card-text">Mai helps out a new classmate.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card-group">
+              <center> <img class="cardImg clickable" src="images/patient.jpg" alt="Patient-book"></center>
+              <div class="card-body">
+                <h5 class="card-title">Mai learns to be patient.</h5>
+                <p class="card-text">Mai learns to be patient during a fishing trip with Dad.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card-group">
+              <center> <img class="cardImg clickable" src="images/truth.jpg" alt="Truth book"></center>
+              <div class="card-body">
+                <h5 class="card-title">Mai is a truthful girl.</h5>
+                <p class="card-text">Mai encourages a friend to tell the truth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end card bootstrap-->
+      </div>
+      <!---------->
+      <div class="aSection" id="sectionFour">
+        <h2 class="sectionPadding">Everyday is an adventure, but holidays are even more special.<br>On these special occasions, Mai always finds special ways<br> to show love and appreciation to her family and friends. </h2>
+        <!---carousel---->
+        <div id="holidays-carousel" class="carousel slide " data-ride="false">
+          <div class="carousel-inner row">
+            <div class="carousel-item active  carouselBox col-lg-12 col-md-12 ">
+              <img class="clickable" src="images/easter.jpg" alt="Easter">
+              <h5>Mai celebrates Easter</h5>
+              <em>Mai discovered the true meaning<br> of celebrating Easter.</em>
+            </div>
+            <div class="carousel-item  carouselBox col-lg-12 col-md-12">
+              <img class="clickable" src="images/momday.jpg" alt="Mom's Day">
+              <h5>Mai's perfect gift for Mother's Day</h5>
+              <em>Mai discovered what Mother's day<br> is all about.</em>
+            </div>
+            <div class="carousel-item  carouselBox col-lg-12 col-md-12">
+              <img class="clickable" src="images/dadday.jpg" alt="Dad's Day">
+              <h5>Mai's gift for Father's Day</h5>
+              <em>Mai made a special gift <br>for her dad and grandpa.</em>
+            </div>
+            <div class="carousel-item carouselBox col-lg-12 col-md-12">
+              <img class="clickable" src="images/christmas.jpg" alt="Christmas's Day">
+              <h5>Mai's best Christmas ever</h5>
+              <em>Mai discovered the true meaning<br> of celebrating Christmas.</em>
+            </div>
+            <div class="carousel-item carouselBox col-lg-12 col-md-12">
+              <img class="clickable" src="images/newyear.jpg" alt="New year's Day">
+              <h5>The Vietnamese Lunar New Year Celebration<br>and Mai's unexpected friend</h5>
+              <em>Mai celebrated Vietnamese Lunar New Year<br> and found a special friend.</em>
+            </div>
+            <div class="carousel-item carouselBox col-lg-12 col-md-12">
+              <img class="clickable" src="images/moon.jpg" alt="Moon's Day">
+              <h5>Mai's trip to Vietnam and <br>the Moon Festival Celebration</h5>
+              <em>Mai celebrates the Vietnamese<br> Moon festival.</em>
+            </div>
+            <div class="carousel-item carouselBox col-lg-12">
+              <img class="clickable" src="images/bday.jpg" alt="Birthday">
+              <h5>Mai's birthday party and<br> the gift of sharing</h5>
+              <em>Mai learned an important lesson <br>about sharing friendship.</em>
+            </div>
+            <div class="carousel-item carouselBox col-lg-12">
+              <img class="clickable" src="images/ancestor.jpg" alt="Ancestor's day">
+              <h5>Mai's trip to Vietnam<br> and the celebration of Ancestor</h5>
+              <em>Mai learned about Vietnamese<br>important customs.</em>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#holidays-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#holidays-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+      <!------------------>
+      <div class="lightSection sectionPadding aSection" id="sectionFive">
+        <div class="books">
+          <h2 class="sectionPadding">Mai helps children learn Vietnamese.<br> Check out these bilingual learning books at Amazon.</h2>
+        </div>
+        <div class="learningBookBox">
+          <table>
+            <th colspan="3"><a class="" href="https://www.amazon.com/A-Vietnamese-Girl-Named-Mai/dp/B08XRZFMG1" target="_blank">Learn Vietnamese books at Amazon.com</a></th>
+            <tr>
+              <td><img class="bookPic clickable" src="images/alphabet.jpg" alt="alphabet"></td>
+              <td><img class="bookPic clickable" src="images/numbers.jpg" alt="alphabet"></td>
+              <td><img class="bookPic clickable" src="images/conversation.jpg" alt="alphabet"></td>
+              <td><img class="bookPic clickable" src="images/allaboutmai.jpg" alt="All about Mai"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!--Special books--------------->
+      <div class="aSection" id="specialBooks">
+        <h2 class="sectionPadding">Life isn't always fun and easy. Sometimes we face challenge and misfortune. But with love and encouragement, we will get through it, like in this Mai's story about HOPE.</h2>
+        <center>
+          <img class="bookPic clickable" src="images/hope.jpg" alt="Hope">
+          <h5 class="">When Mai's mom had cancer...</h5>
+          <p class="">A story about faith, love, hope & encouragement.<br>A story to support cancer patients and their families.</p>
+        </center>
+      </div>
+      <!--pricing--->
+      <div class="lightSection sectionPadding aSection" id="pricing">
+
+        <h2 class="sectionPadding">Affordable Ebook editions and Paperback editions</h2>
+        <div class="row">
+          <div class="pricing-column col-lg-6 col-md-12">
+            <div class="card lightSection">
+              <div class="card-header">
+                <h3>Ebooks</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">Only $3.99</h2>
+                <p>Instant access</p>
+                <p>Fast & Convenient</p>
+                <p>Share with family and friends</p>
+                <center> <button class="btn btn-lg  btn-danger buyBtn" type="button"><a href="https://www.amazon.com/A-Vietnamese-Girl-Named-Mai/dp/B08XRZFMG1" target="_blank">Purchase</a></button>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-column col-lg-6 col-md-12">
+            <div class="card lightSection">
+              <div class="card-header">
+                <h3>Paperbacks</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">Only $9.99</h2>
+                <p>Printed with premium colors</p>
+                <p>Share with family and friends</p>
+                <p>Large fonts for better readers experience</p>
+                <center> <button class="btn btn-lg  btn-danger buyBtn" type="button"><a href="https://www.amazon.com/A-Vietnamese-Girl-Named-Mai/dp/B08XRZFMG1" target="_blank">Purchase</a></button>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--preview section-------->
+      <div id="bookPreview" class="aSection">
+        <h3 class="sectionPadding">Preview pages from the book <br><i>The Vietnamese Lunar New Year Celebration <br>and Mai's new unexpected friend.</i></h3>
+
+        <div id="carouselPreview" class="carousel slide" data-ride="false">
+          <div class="carousel-inner row">
+            <div class="carousel-item carouselBox active col-lg-12 col-md-12">
+              <img class="bookpage" src="images/newyear1.png" alt="First slide">
+            </div>
+            <div class="carousel-item carouselBox  col-lg-12 col-md-12">
+              <img class="bookpage" src="images/newyear2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item carouselBox col-lg-12 col-md-12">
+              <img class="bookpage" src="images/newyear3.png" alt="Third slide">
+            </div>
+            <div class="carousel-item carouselBox  col-lg-12 col-md-12">
+              <img class="bookpage" src="images/newyear4.png" alt="4th slide">
+            </div>
+            <div class="carousel-item carouselBox col-lg-12 col-md-12">
+              <img class="bookpage" src="images/newyear5.png" alt="5th slide">
+            </div>
+            <div class="carousel-item carouselBox  col-lg-12 col-md-12">
+              <img class="bookpage" src="images/newyear6.png" alt="6th slide">
+            </div>
+            <div class="carousel-item carouselBox  col-lg-12 col-md-12">
+              <img class="bookpage" src="images/newyear7.png" alt="7th slide">
+            </div>
+            <div class="carousel-item carouselBox  col-lg-12 col-md-12">
+              <img class="bookpage" src="images/newyear8.png" alt="8th slide">
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselPreview" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselPreview" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <!-------------->
+
+    <div class="bottomSec clearFl">
+      <div class="darkSection sectionPadding">
+        <div class="container-fluid sectionPadding">
+          <h2 class="big-heading">Check out Mai's Books today for a heart-warming experience.<br> Your child will love Mai's stories.</h2>
+          <br>
+          <button class=" btn btn-lg  btn-danger buyBtn" type="button"><i class="fas fa-shopping-cart"></i> <a href="https://www.amazon.com/A-Vietnamese-Girl-Named-Mai/dp/B08XRZFMG1" target="_blank">Purchase</a></button>
+        </div>
+      </div>
+      <footer>Copyright &copy 2021 T.C. Vincent</footer>
+    </div>
+
+    <script type="text/javascript" src="index.js">
+
+    </script>
+</body>
+
+</html>

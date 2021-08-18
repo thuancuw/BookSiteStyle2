@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  font-family: 'Amaranth', 'sans-serif';
+}
+
+.darkSection {
+  background-color: #F48FB1;
+}
+
+.lightSection {
+  background-color: #F8BBD0;
+}
+
+a {
+  color: purple;
+}
+
+a:hover {
+  color: white;
+}
+
+.brand {
+  font-family: 'WindSong', 'cursive';
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: purple;
+}
+
+.adventures {
+  padding: 20px;
+}
+
+.boxTitle, .sectionPadding, .navItem {
+  padding: 20px;
+}
+
+.cardImg {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  margin: 20px;
+}
+
+.carousel-item {
+  width: 50%;
+  height: auto;
+
+}
+
+.carouselBox {
+  margin:auto;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.titleBox {
+  padding: 50px;
+}
+
+.title {
+  color: red;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: 'Amaranth', 'sans-serif';
+  padding-top:20px;
+}
+
+h2 {
+  color: purple;
+}
+
+p {
+  line-height: 2;
+}
+
+th {
+  text-align: center;
+  color: blue;
+  font-size: 2rem;
+}
+
+.maiPic {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+}
+.maiRainbow{
+  width:480px;
+  height:auto;
+  padding:50px 20px 20px 20px;
+}
+
+.bookPic {
+  width: 200px;
+  height: auto;
+  padding: 20px;
+}
+
+.learningBookBox {
+  height: 370px;
+  width: 600px;
+  overflow: auto;
+  display: block;
+  margin: auto;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
