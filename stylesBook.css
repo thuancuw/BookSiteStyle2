@@ -4,11 +4,11 @@ body {
 }
 
 .darkSection {
-  background-color: #F48FB1;
+  background-color: violet;
 }
 
 .lightSection {
-  background-color: #F8BBD0;
+  background-color: plum;
 }
 
 a {
@@ -23,7 +23,7 @@ a:hover {
   font-family: 'WindSong', 'cursive';
   font-size: 2.5rem;
   font-weight: bold;
-  color: purple;
+  color: indigo;
 }
 
 .adventures {
@@ -58,7 +58,7 @@ a:hover {
 }
 
 .title {
-  color: red;
+  color: purple;
   font-size: 2.5rem;
   line-height: 1.5;
   font-family: 'Amaranth', 'sans-serif';

@@ -1,8 +1,10 @@
-body{
 
+.author {
+  color:indigo;
+  font-family: 'WindSong', 'cursive';
 }
 .homeBtn {
-  background-color: #F48FB1;
+  background-color: violet;
   border: none;
   text-align: center;
   font-family: 'Amaranth', 'sans-serif';
@@ -17,26 +19,27 @@ body{
 }
 
 .topSec {
-  height:300px;
+  height:auto;
   width: 100%;
-  background-color: #F48FB1;
+  background-color: violet; /*dark color */
 }
 
 .midSec {
-  background-color:#F8BBD0;
+  background-color:plum;  /*light color */
   height:595px;
   width:100%;
+  margin-top:0;
 }
 
 .toc {
-  background-color:#F8BBD0;
+  background-color:plum;
   height:595px;
   width:300px;
   float:left;
   overflow-y:auto;
 }
 .btn {
-  background-color: #F8BBD0;
+  background-color: plum;
   width:300px;
   height:85px;
 }
@@ -44,10 +47,10 @@ body{
   display:none;
 }
 
-/*  background-color: #F48FB1;dark*/
+/*  background-color: violet;dark*/
 .displayArea{
   padding-top:20px;
-  background-color:#F8BBD0;
+  background-color:plum;
   height:595px;
   width:calc(100% - 300px);
   float:right;
@@ -64,7 +67,7 @@ body{
 
 }
 .buyBtn {
-  background-color:deeppink;
+  background-color:magenta;
 }
 
 .bookpage {
@@ -74,5 +77,5 @@ body{
 }
 footer {
   padding: 20px;
-  background-color: #F8BBD0;
+  background-color: plum;
 }
